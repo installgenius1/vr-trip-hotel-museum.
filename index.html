@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Trip Hotel & Museum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #000;
+            color: white;
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .hero {
+            height: 100vh;
+            background: url('vr-background.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .explore-button {
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: white;
+            background: #ff6600;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .explore-button:hover {
+            background: #ff4500;
+        }
+        .section {
+            padding: 50px 20px;
+            background: #111;
+            margin-top: 20px;
+        }
+        .footer {
+            background: #222;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#partners">Partner With Us</a>
+    </div>
+    <div class="hero" id="home">
+        <h1>Explore Hotels & Museums in VR</h1>
+        <p>Experience luxury stays and world-class exhibits from anywhere.</p>
+        <button class="explore-button">Start Exploring</button>
+    </div>
+    <div class="section" id="destinations">
+        <h2>Featured Destinations</h2>
+        <p>Discover top hotels and museums offering immersive VR experiences.</p>
+    </div>
+    <div class="section" id="partners">
+        <h2>Partner With Us</h2>
+        <p>Hotels and museums can showcase their locations in stunning VR.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 VR Trip Hotel & Museum | Contact: info@vrtrip.com</p>
+    </div>
+</body>
+</html>
